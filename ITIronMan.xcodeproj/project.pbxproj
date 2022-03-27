@@ -12,7 +12,7 @@
 		AF923662EC661CA99F2BC63B /* Pods_ITIronMan_ITIronManUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D142265F5E4A511DC70CC9D8 /* Pods_ITIronMan_ITIronManUITests.framework */; };
 		B26E26F127F0477100C3D836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E26F027F0477100C3D836 /* AppDelegate.swift */; };
 		B26E26F327F0477100C3D836 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E26F227F0477100C3D836 /* SceneDelegate.swift */; };
-		B26E26F527F0477100C3D836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E26F427F0477100C3D836 /* ViewController.swift */; };
+		B26E26F527F0477100C3D836 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E26F427F0477100C3D836 /* LoadingViewController.swift */; };
 		B26E26F827F0477100C3D836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E26F627F0477100C3D836 /* Main.storyboard */; };
 		B26E26FA27F0477300C3D836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26E26F927F0477300C3D836 /* Assets.xcassets */; };
 		B26E26FD27F0477300C3D836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E26FB27F0477300C3D836 /* LaunchScreen.storyboard */; };
@@ -46,7 +46,7 @@
 		B26E26ED27F0477100C3D836 /* ITIronMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITIronMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26E26F027F0477100C3D836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B26E26F227F0477100C3D836 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B26E26F427F0477100C3D836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B26E26F427F0477100C3D836 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		B26E26F727F0477100C3D836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B26E26F927F0477300C3D836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B26E26FC27F0477300C3D836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			children = (
 				B26E26F027F0477100C3D836 /* AppDelegate.swift */,
 				B26E26F227F0477100C3D836 /* SceneDelegate.swift */,
-				B26E26F427F0477100C3D836 /* ViewController.swift */,
+				B26E26F427F0477100C3D836 /* LoadingViewController.swift */,
 				B26E26F627F0477100C3D836 /* Main.storyboard */,
 				B26E26F927F0477300C3D836 /* Assets.xcassets */,
 				B26E26FB27F0477300C3D836 /* LaunchScreen.storyboard */,
@@ -164,7 +164,6 @@
 				ADD1E07224FAD9F28A703014 /* Pods-ITIronManTests.debug.xcconfig */,
 				F8C3070613F7E06141B9E4BD /* Pods-ITIronManTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,7 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26E26F527F0477100C3D836 /* ViewController.swift in Sources */,
+				B26E26F527F0477100C3D836 /* LoadingViewController.swift in Sources */,
 				B26E26F127F0477100C3D836 /* AppDelegate.swift in Sources */,
 				B26E26F327F0477100C3D836 /* SceneDelegate.swift in Sources */,
 			);
