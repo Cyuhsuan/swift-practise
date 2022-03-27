@@ -19,6 +19,7 @@
 		B26E270827F0477300C3D836 /* ITIronManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E270727F0477300C3D836 /* ITIronManTests.swift */; };
 		B26E271227F0477300C3D836 /* ITIronManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E271127F0477300C3D836 /* ITIronManUITests.swift */; };
 		B26E271427F0477300C3D836 /* ITIronManUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E271327F0477300C3D836 /* ITIronManUITestsLaunchTests.swift */; };
+		B26E272727F050F100C3D836 /* AlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E272627F050F100C3D836 /* AlamofireAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		B26E270D27F0477300C3D836 /* ITIronManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITIronManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26E271127F0477300C3D836 /* ITIronManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITIronManUITests.swift; sourceTree = "<group>"; };
 		B26E271327F0477300C3D836 /* ITIronManUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITIronManUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B26E272627F050F100C3D836 /* AlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
 		C64AC31856DAD005C2134A7D /* Pods_ITIronManTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITIronManTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D142265F5E4A511DC70CC9D8 /* Pods_ITIronMan_ITIronManUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITIronMan_ITIronManUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBEB000A258EF1DE1F18805 /* Pods-ITIronMan-ITIronManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITIronMan-ITIronManUITests.debug.xcconfig"; path = "Target Support Files/Pods-ITIronMan-ITIronManUITests/Pods-ITIronMan-ITIronManUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				B26E26F927F0477300C3D836 /* Assets.xcassets */,
 				B26E26FB27F0477300C3D836 /* LaunchScreen.storyboard */,
 				B26E26FE27F0477300C3D836 /* Info.plist */,
+				B26E272627F050F100C3D836 /* AlamofireAdapter.swift */,
 			);
 			path = ITIronMan;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 			files = (
 				B26E26F527F0477100C3D836 /* LoadingViewController.swift in Sources */,
 				B26E26F127F0477100C3D836 /* AppDelegate.swift in Sources */,
+				B26E272727F050F100C3D836 /* AlamofireAdapter.swift in Sources */,
 				B26E26F327F0477100C3D836 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
